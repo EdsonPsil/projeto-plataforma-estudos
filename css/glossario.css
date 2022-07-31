@@ -1,0 +1,22 @@
+  body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /*overflow: hidden;*/
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  button{
+    font-size: 2rem;
+    color: #ffffff;
+    width: 450px;
+    height: 150px;
+    border-radius: 8px;
+    
+    background-image: linear-gradient(to bottom, black,black,rgb(218, 59, 19), rgb(236, 59, 15) );
+  }
