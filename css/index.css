@@ -18,6 +18,7 @@
     align-items: center;
     background-color: rgb(15, 1, 27);
     filter:brightness(180%);
+   
     
   }
 
@@ -95,6 +96,7 @@
     width: 440px;
     height: 140px;
     background-color: rgba(54, 27, 129, 0.63);
+    cursor: pointer;
     
    
   }
@@ -126,7 +128,7 @@
   }
  
   .container-menu{
-    height: 62%;
+    height: 75%;
     grid-template-columns: auto;
     gap: 28px;
     top: 0px;
