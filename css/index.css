@@ -44,7 +44,7 @@
    
   }
 
-  section{
+  section .wrapper-menu{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@
 
  
   .container-menu{
-    height:100vh;
+    height:100%;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -116,17 +116,22 @@
     font-size: 3rem;
     padding: 25px 20px;
   }
-
+ }
   @media (max-width: 1050px){
   body{
-    overflow: unset;
+    overflow: hidden;
    
+  }
+  .wrapper-menu{
+    height: 520px;
   }
  
   .container-menu{
+   
     grid-template-columns: auto;
-    gap: 50px;
-    bottom: 5px;
+    gap: 28px;
+    top: 0px;
+    bottom: 0px;
     
    
     
