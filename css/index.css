@@ -24,7 +24,6 @@
 
    h1.gradient{
     width: 100vw;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +43,7 @@
    
   }
 
-  section .wrapper-menu{
+  .wrapper-menu{
   display: flex;
   justify-content: center;
   align-items: center;
