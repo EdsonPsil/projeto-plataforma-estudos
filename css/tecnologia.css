@@ -2,15 +2,18 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  /*overflow: hidden;*/
-  position: relative;
+
+  overflow:hidden;
  
 
   
   }
   section{
   width: 100vw;
-  height: 100%;
+  height: 106vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(to top, rgb(44, 5, 77),rgb(53, 2, 53), rgb(15, 1, 27));
   filter:brightness(180%);
   
@@ -19,18 +22,19 @@
   
   }
   header{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 
-    
-
-   
-
-  
   }
 
   h1.gradient{
-    margin: 0px;
-    padding: 20PX;
+    width: 100%;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +43,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     justify-items: center;
-    border-bottom: 10px groove rgba(5, 3, 34, 0.301);
+    border-bottom: 15px groove rgba(51, 3, 70, 0.993);
     /*=====Gradient=====*/
     background-image: linear-gradient(to left, rgb(38, 88, 83), rgb(31, 11, 70),#66046e, #4e086e);
     background-clip: text;
@@ -50,42 +54,25 @@
    
   }
 
+ 
   .container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   justify-content: center;
-  
-  }
-
-  #toggle{
-    display: none;
-  }
-  
-  .menu-wrapper{
+    padding-top: 0px;
     display: flex;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
     align-items: center;
     justify-content: center;
-    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px 100px 50px 100px 50px 100px;
+    gap: 80px ;
+   
+    
     
   }
 
   
-  .menu{
-    display: grid;
-    grid-template-columns: auto auto ;
-    gap: 50px 80px;
-    padding: 70px;
-    cursor: pointer; 
-  }
-
-  img{
-    filter:brightness(70%);
-   
-  }
-   img:hover{
-    opacity: unset;
-  }
 
   .link{
     width: 200px;
@@ -95,12 +82,9 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    cursor: pointer;
     
     background-image: linear-gradient(to top, rgb(44, 10, 136),rgb(20, 8, 36), rgb(46, 15, 134) ); 
-  }
-  a{
-    padding-left: 20px;
-    color: antiquewhite;
   }
 
   .link:hover {
@@ -111,10 +95,18 @@
     height: 95px;
    
   }
+  img{
+    filter:brightness(70%);
+   
+  }
+   img:hover{
+    opacity: unset;
+  }
 
   .back {
     position: absolute;
-    top: 25px;
+    left: 10px;
+    
      
   }
   
@@ -129,10 +121,16 @@
   body{
     overflow: unset;
   }
-  .menu-wrapper{
+
+  section{
+    height: 130vh;
+  }
+  
+  .container{
     grid-template-columns: auto;
-    gap: 40px;
-    padding-top: 50px;
+    gap: 50px;
+    padding-top: 80px;
+    grid-template-rows: 45px 90px 45px 90px 45px 90px 45px 90px 45px 90px 45px ;
     
   }
   .link{
@@ -151,8 +149,9 @@
   }
   .back {
     position: absolute;
-    top: 60px; 
+    top: 0px; 
     left: 0px;
+    
   }
   
 
