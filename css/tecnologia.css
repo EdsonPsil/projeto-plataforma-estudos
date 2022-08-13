@@ -2,15 +2,15 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: hidden;
 
-  overflow:hidden;
  
 
   
   }
   section{
   width: 100vw;
-  height: 106vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,18 +23,19 @@
   }
   header{
     width: 100vw;
-    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgb(15, 1, 27);
+    filter:brightness(180%);
+    border-bottom: 15px groove rgba(51, 3, 70, 0.993);
     
 
   }
 
   h1.gradient{
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,20 +44,20 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     justify-items: center;
-    border-bottom: 15px groove rgba(51, 3, 70, 0.993);
+    
     /*=====Gradient=====*/
-    background-image: linear-gradient(to left, rgb(38, 88, 83), rgb(31, 11, 70),#66046e, #4e086e);
+    background-image: linear-gradient(to left, rgb(8, 78, 136), rgb(31, 11, 70),#66046e);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent; 
-    filter: brightness(200%);
+    filter: brightness(400%);
    
    
   }
 
  
   .container{
-    padding-top: 0px;
+    padding-top: 40px;
     display: flex;
     width: 100%;
     height: 100vh;
@@ -64,7 +65,7 @@
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: 50px 100px 50px 100px 50px 100px;
     gap: 80px ;
    
@@ -120,10 +121,11 @@
   @media (max-width: 980px){
   body{
     overflow: unset;
+   
   }
 
   section{
-    height: 130vh;
+    height: 230vh;
   }
   
   .container{
